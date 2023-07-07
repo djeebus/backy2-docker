@@ -31,4 +31,4 @@ jobs:
         with:
           build-args: BACKY2_VERSION=${{ env.RELEASE_VERSION }}
           push: true
-          tags: ghcr.io/${{ github.workspace }}/${{ github.repository }}:${{ env.RELEASE_VERSION }}
+          tags: ghcr.io/djeebus/backy2:${{ env.RELEASE_VERSION }}
